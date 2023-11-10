@@ -1,0 +1,29 @@
+{
+  "version": "0.1.0",
+  "description": "An example Snap written in TypeScript.",
+  "proposedName": "Get Gas Fee Proposed Name",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juniarto-samsudin/mymetsnap1.git"
+  },
+  "source": {
+    "shasum": "bSBXNQ1lPOt7J3HM+aZNPtoMLCkPwLucR+d/exvqac4=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "images/gas.svg",
+        "packageName": "mymetsnap1",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "snap_dialog": {},
+    "endowment:rpc": {
+      "dapps": true,
+      "snaps": false
+    },
+    "endowment:network-access": {}
+  },
+  "manifestVersion": "0.1"
+}
